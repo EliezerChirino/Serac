@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+    
+#side_nav{
+ background: rgb(117, 124, 129);
+ min-width: 250px;
+ max-width: 250px;
+ transition: all 0.2s;
+ 
+}
+
+.content{
+ min-height: 100vh;
+ width: 100%;
+}
+    
+hr .h-color{
+background: #eee;
+}
+
+.sidevar li.active{
+background: #eee;
+border-radius: 8px;
+}
+    
+.sidevar li.active a, .sidevar li.active a:hover{
+color: #000;
+}
+    
+.sidevar li a{
+color: #fff;
+}
+.grupo{
+    transition: all 0.3s ease-out;
+}
+    
+@media(max-width: 767px){
+        #side_nav{
+            margin-left: -250px;
+            position: fixed;
+            z-index: 1;
+            height: 1000px;
+    
+        }
+        #side_nav.active{
+            margin-left: 0;
+        }
+        .nav-pills{
+            justify-content: center;
+        }
+    }
+    .dropdown-menu-right {
+        right: 0;
+        left: auto;
+      }
+
+      
+    
+    .card-body h6{
+        opacity: 0.6;
+        margin: 0;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        
+    }
+    
+    .media-body h3{
+        text-align: center;
+    }
+    
+    .siz div{
+        height: 110px;
+    }
+    .card-body h2 {
+        letter-spacing: 1px;
+        margin: 10px 0;
+        text-align: center;
+        
+    }
+    
+    
+    .font-card div{
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    @media(max-width: 767px){
+        #lol{
+            max-width: 90%;
+    
+        }
+        
+    }
+
+    .card {
+        border: none;
+        border-radius: 10px
+    }
+    
+    .c-details span {
+        font-weight: 300;
+        font-size: 13px
+    }
+
+table{
+    text-align: center;
+    align-items: center;
+   
+}
+
+td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+
+  td {
+    text-align: center;
+  }
+
+tr{
+    padding-top: 30px;
+
+    text-align: center;
+  }
+
+
+.nav-tabs{
+    margin: auto;
+    
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  footer{
+    padding: 1em 0;
+    position: absolute;
+    bottom: 0%;
+    background-color: rgb(241, 246, 248);
+    width: 100%;
+    text-align: center;
+    height: 70px;
+    font-size: smaller;
+     }
+
+
+
+

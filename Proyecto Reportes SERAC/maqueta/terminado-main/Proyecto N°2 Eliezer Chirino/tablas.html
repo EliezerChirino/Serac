@@ -1,0 +1,1729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles</title>
+    <link rel="stylesheet" href="stilos-tablas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Tilt+Neon&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://kit.fontawesome.com/8a2f042b38.css" crossorigin="anonymous">
+  
+    <!--Bootstrap-->
+    <!--Iconos Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+</head>
+<body style=" font-family: 'Comfortaa', cursive;">
+    <div class="main-container d-flex justify-content-between" >
+        <div class="sidevar" id="side_nav">
+          
+            <div class="header-box px-2 pt-2 pb-4 " style="position: fixed;" >
+                    <div class="d-flex justify-content-center rounded align-items-center pl-2">
+                        <img src="CORIMON PINTURAS.png" alt="" style="height: 45px; width: 200PX;">
+                        <buttonc class=" btn d-md-none d-block close-btn px-3 py-0 text-white " ><i class="bi bi-list-nested" style="height: 50px;"></i></i></button>
+                    </div>    
+                    <hr class="h-color mt-2 mx-3" style="border-color: #eee">
+           
+            
+            <ul class="list-unstyled px-4" id="ll">
+                <li class="active">
+                    <a href="Indice.html" class="text-decoration-none px-2 py-2 d-block "><i class="bi bi-house-door"></i> Inicio </a>
+                </li>
+                
+
+                <li class="">
+                    <a href="Login.html" class="text-decoration-none  px-2 py-2 d-block "><i class="bi bi-people"></i> Funcion</a>
+                </li>
+            </ul>
+            <hr class="h-color mx-3" style="border-color: #eee">
+
+            <ul class="list-unstyled px-4">
+                <li class="">
+                    <a href="#" class="text-decoration-none  px-2 py-2 d-block "><i class="bi bi-gear"></i></i> Funcion </a>
+                </li>
+                
+                </ul>
+              </div>
+        </div>
+            <div class="content w-100">
+              
+              <nav class="navbar navbar-expand-md navbar-light "  style="background-color: #eee;" >
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-between d-md-none d-block col-2 ">
+                    <button class="btn px-1 py-0 open-btn"><i class="bi bi-list-nested"></i></button>
+                    <a class="navbar-brand px-1" href="#"> <img src="CORIMON PINTURAS.png" alt="" style="height: 35px; width: 120px;"></a>
+                    </div>
+                    <div class="col-sm-4 col-xl-12 col-lg-12 col-md-12 d-flex justify-content-end ">
+                    
+                    <li class="nav-item dropdown ms-auto list-unstyled mx-1 my-2">
+                      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">"Nombre de usuario" <i class="bi bi-person-circle"></i></a>
+                      <div class="dropdown-menu dropdown-menu-end">
+                          <a href="#" class="dropdown-item"> <i class="bi bi-gear"></i> Configuraciones</a>
+                          <a href="#" class="dropdown-item"><i class="bi bi-award"></i> Permisos</a>
+                          <div class="dropdown-divider"></div>
+                          <a href="#" class="dropdown-item"> <i class="bi bi-door-open"></i> Cerrar seción</a>
+                          
+                      </div>
+                  </li>
+                </div>
+              
+          </nav>
+          <ul class="nav nav-pills mb-3 mt-2 col-12 " id="pills-tab" role="tablist">
+            <li class="nav-item ml-3 col-sm-6 col-xl-2" role="presentation">
+              <button class="nav-link mx-2 mx-3 active col col-sm-12 " id="pills-general-tab" data-bs-toggle="pill" data-bs-target="#pills-general" type="button" role="tab" aria-controls="pills-general" aria-selected="true">General</button>
+            </li>
+            <li class="nav-item  col-sm-7 col-xl-2" role="presentation">
+              <button class="nav-link mx-2 col col-sm-12 col-md-12 text-center" id="pills-paradas-tab" data-bs-toggle="pill" data-bs-target="#pills-paradas" type="button" role="tab" aria-controls="pills-paradas" aria-selected="false">Eventos </button>
+            </li>
+            <li class="nav-item  col-sm-6 col-xl-3" role="presentation">
+              <button class="nav-link mx-2 col col-sm-12 " id="pills-ficha-tab" data-bs-toggle="pill" data-bs-target="#pills-ficha" type="button" role="tab" aria-controls="pills-ficha" aria-selected="false">Ficha de producción</button>
+            </li>
+            <li class="nav-item  col-sm-6 col-xl-3" role="presentation">
+              <button class="nav-link mx-2 col col-sm-12 " id="pills-dosificacion-tab" data-bs-toggle="pill" data-bs-target="#pills-dosificacion" type="button" role="tab" aria-controls="pills-dosificacion" aria-selected="false">Dosificacion</button>
+            </li>
+          </ul>
+          <hr>
+          
+          <div class="tab-content" id="pills-tabContent">
+            <!--Primera pagina en el tab-->
+            <div class="tab-pane fade show active" id="pills-general" role="tabpanel" aria-labelledby="pills-general-tab" tabindex="0">
+               <main>
+                <div class=" card container-fluid mt-4 mx-4" id="lol" style="width: 1060px;">
+                    <section class="font-card">
+                      <div class="row " >
+                        <div class="col-xl-6 col-sm-12  mt-3 mb-1 ">
+                          <h4 class="text-uppercase">Resumen de Información</h4>
+                        </div>
+                        
+                      </div>
+                      <div class="row m-3">
+                        <div class="col-xl-3 col-sm-12 col-12 mt-2">
+                            <div class="card siz" >
+                              <div class="card-content">
+                                <div class="card-body pb-0">
+                                  <div class="media d-flex align-items-center justify-content-center">
+                                    <div class="media-body text-center">
+                                      <h3 class="fs-6 text-center pb-2"><dt> Referencia de la producción</dt></h3>
+                                      <hr class="mt-0 mb-2"> 
+                                      <h6 class="mt-0">12153161</h6>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <div class="col-xl-3 col-sm-12 col-12 mt-2">
+                          <div class="card siz" >
+                            <div class="card-content">
+                              <div class="card-body pb-0">
+                                <div class="media d-flex align-items-center justify-content-center">
+                                  <div class="media-body text-center">
+                                    <h3 class="fs-6 text-center pb-2 mt-2"><dt> Referencia del lote</dt></h3>
+                                    
+                                    <hr class="mt-0 mb-2"> 
+                                    <h6 class="mt-0">128202</h6>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-3 col-sm-12 col-12 mt-2">
+                            <div class="card siz" >
+                              <div class="card-content">
+                                <div class="card-body pb-0">
+                                  <div class="media d-flex align-items-center justify-content-center">
+                                    <div class="media-body text-center">
+                                      <h3 class="fs-6 text-center pb-2"><dt> Inicio de la Producción</dt></h3>
+                                      
+                                      <hr class="mt-0 mb-1"> 
+                                      <h6 class="mt-0">01/27/2023 08:31:07 AM</h6>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-sm-12 col-12 mt-2">
+                            <div class="card siz" >
+                              <div class="card-content">
+                                <div class="card-body pb-0">
+                                  <div class="media d-flex align-items-center justify-content-center">
+                                    <div class="media-body text-center">
+                                      <h3 class="fs-6 text-center pb-2"><dt> Fin de la producción</dt></h3>
+                                      
+                                      <hr class="mt-0 mb-2"> 
+                                      <h6 class="mt-0">01/27/2023 11:20:41 AM</h6>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-sm-12 col-12 mt-2">
+                            <div class="card siz" >
+                              <div class="card-content">
+                                <div class="card-body pb-0 ">
+                                  <div class="media d-flex align-items-center justify-content-center">
+                                    <div class="media-body text-center">
+                                      <h3 class="fs-6 text-center pb-2"><dt>Duración (Tiempo)</dt></h3>
+                                      
+                                      <hr class="mt-0 mb-2"> 
+                                      <h6 class="mt-0">2:49:34 (h, min, s)</h6>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-sm-12 col-12 mt-2">
+                            <div class="card siz" >
+                              <div class="card-content">
+                                <div class="card-body pb-0">
+                                  <div class="media d-flex align-items-center justify-content-center">
+                                    <div class="media-body text-center">
+                                      <h3 class="fs-6 text-center pb-0"><dt> Duracion de preparación a la producción</dt></h3>
+                                      
+                                      <hr class="mt-0 mb-2"> 
+                                      <h6 class="mt-0">0:01:48 (h, min, s) </h6>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-sm-12 col-12 mt-2">
+                            <div class="card siz" >
+                              <div class="card-content">
+                                <div class="card-body pb-0">
+                                  <div class="media d-flex align-items-center justify-content-center">
+                                    <div class="media-body text-center">
+                                      <h3 class="fs-6 text-center pb-0"><dt> Duracion acumulada de producción</dt></h3>
+                                      
+                                      <hr class="mt-0 mb-2"> 
+                                      <h6 class="mt-0">1:14:54 (h, min, s) </h6>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-sm-12 col-12 mt-2">
+                            <div class="card siz" >
+                              <div class="card-content">
+                                <div class="card-body pb-0">
+                                  <div class="media d-flex align-items-center justify-content-center">
+                                    <div class="media-body text-center">
+                                      <h3 class="fs-6 text-center pb-0"><dt> Duracion acumulada de no producción</dt></h3>
+                                      
+                                      <hr class="mt-0 mb-2"> 
+                                      <h6 class="mt-0 ">00:33:29 + 00:59:19 <br> <small>(h, min, s)</small> </h6>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-sm-12 col-12 mt-2">
+                            <div class="card siz" >
+                              <div class="card-content">
+                                <div class="card-body pb-0">
+                                  <div class="media d-flex align-items-center justify-content-center">
+                                    <div class="media-body text-center">
+                                      <h3 class="fs-6 text-center pb-2"><dt> Embalajes Buenos</dt></h3>
+                                      
+                                      <hr class="mt-0 mb-2"> 
+                                      <h6 class="mt-0">920</h6>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-sm-12 col-12 mt-2">
+                            <div class="card siz" >
+                              <div class="card-content">
+                                <div class="card-body pb-0">
+                                  <div class="media d-flex align-items-center justify-content-center">
+                                    <div class="media-body text-center">
+                                      <h3 class="fs-6 text-center pb-2"><dt> Embalajes malos</dt></h3>
+                                      
+                                      <hr class="mt-0 mb-2"> 
+                                      <h6 class="mt-0">14</h6>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-sm-12 col-12 mt-2">
+                            <div class="card siz" >
+                              <div class="card-content">
+                                <div class="card-body pb-0">
+                                  <div class="media d-flex align-items-center justify-content-center">
+                                    <div class="media-body text-center">
+                                      <h3 class="fs-6 text-center pb-2"><dt> Cantidad a producir</dt></h3>
+                                      
+                                      <hr class="mt-0 mb-2"> 
+                                      <h6 class="mt-0">1100</h6>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-sm-12 col-12 mt-2">
+                            <div class="card siz" >
+                              <div class="card-content">
+                                <div class="card-body pb-0">
+                                  <div class="media d-flex align-items-center justify-content-center">
+                                    <div class="media-body text-center">
+                                      <h3 class="fs-6 text-center pb-2"><dt> Cadencia solicitada</dt></h3>
+                                      
+                                      <hr class="mt-0 mb-2"> 
+                                      <h6 class="mt-0">45 (Emb/min) </h6>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                        </section>
+                        
+                    </div>
+                    
+                    <div class="container mt-5 mb-3">
+                      <div class="row">
+                          
+                          
+                          <div class="col-sm-12 col-lg-11 col-md-11 col-xl-11 mx-2" style="width: 1090px;">
+                            <div class="card border-secondary mb-3">
+                              <div class="card-header justify-content-center text-white d-flex" style="background: rgb(117, 124, 129);;">Peso Neto</div>
+                              <div class="card-body table-responsive">
+                                <table class="table mb-0 col-sm-12 ">
+                                  <thead>
+                                    <tr class="table-secondary">
+                                      <th scope="col d-flex ">Consigna(g)</th>
+                                      <th scope="col">Media(g)</th>
+                                      <th scope="col">Diferencia tipo(g)</th>
+                                      <th scope="col">Población</th>
+                                      <th scope="col">Mínimo (g)</th>
+                                      <th scope="col">Máximo(g)</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr >
+                                      <th scope="row ">4710.0</th>
+                                      <td>4710.7</td>
+                                      <td>5.4</td>
+                                      <td>783</td>
+                                      <td>4680</td>
+                                      <td>4725</td>
+                                    </tr> 
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                        </div>
+                      
+                        <div class="col-sm-11 col-lg-7 col-md-7 col-xl-7 mx-2">
+                          <div class="card border-secondary mb-3">
+                            <div class="card-header justify-content-center text-white d-flex" style="background: rgb(117, 124, 129);">Tara</div>
+                            <div class="card-body  table-responsive">
+                              <table class="table mb-0">
+                                <thead>
+                                  <tr class="table-secondary">
+                                    <th scope="col">Media(g)</th>
+                                    <th scope="col">Diferencia tipo (g)</th>
+                                    <th scope="col">Población</th>
+                                    <th scope="col">Mínimo (g)</th>
+                                    <th scope="col">Máximo(g)</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr >
+                                    <th scope="row">239.6</th>
+                                    <td>4.8</td>
+                                    <td>927</td>
+                                    <td>195</td>
+                                    <td>275</td>
+                                  </tr> 
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-12 col-lg-4 col-md-4 col-xl-4 mx-2">
+                        <div class="card border-secondary mb-3">
+                          <div class="card-header justify-content-center text-white d-flex" style="background: rgb(117, 124, 129);;">contadores de mantenimiento</div>
+                          <div class=" mx-2 mt-2 ms-0">
+                            <h4 class="fs-6 mb-0 mx-2"> Máquina bajo tensión (en horas): 41715 
+                              <hr>
+                            <h4 class="fs-6 mb-0 mx-2">Máquina en rotación (en horas) : 7226
+                              <hr>
+                            <h4 class="fs-6 mb-0 mx-2 mb-3 "> productos :	12144705
+  
+                        </div>
+                        </div>
+                    </div>
+
+    
+                  
+                <!--Cierre de row y container-->
+                      </div>
+                    </div>
+               </main>
+            </div>
+
+
+            <!--Siguiente pagina en el tab-->
+            <div class="tab-pane fade " id="pills-paradas" role="tabpanel" aria-labelledby="pills-paradas-tab" tabindex="0">
+
+                <main class="container mx-1">
+                    <div class="d-flex  p-3 my-3 text-white bg-purple rounded shadow-sm">
+                      <div class=" rounded py-2 px-1" style="background: rgb(0, 0, 0); width: 40px; height: 40px;"> <i class="bi bi-megaphone-fill mx-2 my-2"></i>
+                      </div>
+                      <div class="lh-1">
+
+                        <h1 class="h4 mb-1 text-black lh-1 mx-2">Eventos de producción</h1>
+                        <p class="pb-3 mx-4 mb-0 small text-muted lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">Embalajes acondicionados: 0</strong>
+                          def00057 Llenadora por la IHM
+                        </p>
+                      </div>
+                    </div>
+                  
+                    <div class="my-3 p-3 bg-body rounded shadow-sm">
+                      <h6 class="border-bottom pb-2 mb-0"><dt>Puesta a cero de balanzas</dt> </h6>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                       
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 08:31:21 AM</strong>
+                         Estaciones: todas 
+                        </p>
+                      </div>
+                    </div>
+
+                    <!--Modificacion de la cadencia-->
+
+
+                    <div class="my-3 p-3 bg-body rounded shadow-sm">
+                      <h6 class="border-bottom pb-2 mb-0"><dt>Modificación de la cadencia</dt></h6>
+                      <!--Alerts en azul-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 08:33:29 AM</strong>
+                         Nueva consigna (Emb/min) : 65
+                        </p>
+                      </div>
+                      <!--Alerts en azul-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 08:33:31 AM</strong>
+                        </p>
+                      </div>
+                      <!--Alerts en azul-->
+                    <div class="d-flex text-muted pt-3">
+                      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                      <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                        <strong class="d-block text-gray-dark">01/27/2023 08:35:54 AM</strong>
+                        Embalajes acondicionados 24, def00022 Llenadora parada por el operador
+                      </p>
+                    </div>
+                    <!--Alerts en azul-->
+                    <div class="d-flex text-muted pt-3">
+                      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                      <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                        <strong class="d-block text-gray-dark">01/27/2023 08:36:20 AM</strong>
+                        Embalajes acondicionados 24, def00006 - Baja presion de aire en llenadora
+                      </p>
+                    </div>
+                    <!--Alerts en azul-->
+                    <div class="d-flex text-muted pt-3">
+                      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                      <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                        <strong class="d-block text-gray-dark">01/27/2023 08:59:06 AM</strong>
+                        Embalajes acondicionados 24, def00018 Transportador parado
+                      </p>
+                    </div>
+                     <!--Alerts en azul-->
+                     <div class="d-flex text-muted pt-3">
+                      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                      <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                        <strong class="d-block text-gray-dark">01/27/2023 08:59:06 AM</strong>
+                        Embalajes acondicionados 24, def00021 Válvula producto cerrada
+                      </p>
+                    </div>
+                    <!--Alerts en azul-->
+                    <div class="d-flex text-muted pt-3">
+                      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                      <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                        <strong class="d-block text-gray-dark">01/27/2023 09:15:04 AM</strong>
+                        Embalajes acondicionados 24, def00057 Llenadora parada por la IHM
+                      </p>
+                    </div>
+                    <div class="d-flex text-muted pt-3">
+                      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                      <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                        <strong class="d-block text-gray-dark">01/27/2023 09:15:04 AM</strong>
+                        EEmbalajes acondicionados 24, Causa de parada: def00057 Llenadora parada por la IHM
+                      </p>
+                    </div>
+                    </div>
+                    
+                    
+                    <!--Puestas a cero-->
+
+
+                    <div class="my-3 p-3 bg-body rounded shadow-sm">
+                      <h6 class="border-bottom pb-2 mb-0"><dt>Puesta a cero de balanzas</dt> </h6>
+                       <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 py-2 mb-0 small lh-sm border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 09:15:11 AM</strong>
+                          Estaciones: todas
+                        </p>
+                      </div>
+                      <!--Alerta en verde-->
+                      <div class="d-flex text-muted  pt-0 card border-success " style="margin-left: -15px;">
+                        <div class="card-body d-flex align-items-center">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#4CF549"/><text x="50%" y="50%" fill="#4CF549" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 py-2 mb-0 mt-2 small lh-sm w-100 ">
+                         <strong class="text-success mt-1"> 01/27/2023 09:15:31 AM <br>Reanudación de producción</strong>
+                        </p>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <!--Modificacion de cadencia-->
+
+
+                    <div class="my-3 p-3 bg-body rounded shadow-sm">
+                      <h6 class="border-bottom pb-2 mb-0"><dt>Modificación de la cadencia</dt></h6>
+                      <!--Alerts en azul-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 09:15:59 AM</strong>
+                          Nueva consigna (Emb/min) : 45
+                        </p>
+                      </div>
+                       <!--Alerts en azul-->
+                        <div class="d-flex text-muted pt-3">
+                          <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                          <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                            <strong class="d-block text-gray-dark">01/27/2023 09:16:00 AM</strong>
+                          </p>
+                      </div>
+                       <!--Alerts en azul-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 09:19:45 AM</strong>
+                          Embalajes acondicionados 110, def00023 Portón de entrada cerrado por el operador
+                        </p>
+                      </div>
+                       <!--Alerts en azul-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 09:30:29 AM</strong>
+                          Embalajes acondicionados 174, def00022 Llenadora parada por el operador
+                        </p>
+                      </div>
+                      <!--Alerts en azul-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 09:34:52 AM</strong>
+                          Embalajes acondicionados 174, def00023 Portón de entrada cerrado por el operador
+                        </p>
+                      </div>
+                      <!--Alerts en azul-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 09:40:09 AM</strong>
+                          Embalajes acondicionados 374, Dosificacación Estación 2 Sobredosificación
+                        </p>
+                      </div>
+                      <!--Alerts en azul-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 09:44:12 AM</strong>
+                        </p>
+                      </div>
+                       <!--Alerts en azul-->
+                       <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 09:50:29 AM</strong>
+                          Embalajes acondicionados 621, def00046 Nivel producto demasiado bajo
+                        </p>
+                      </div>
+                      <!--Alerts en azul-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 09:50:29 AM</strong>
+                          Embalajes acondicionados 621, Causa de parada: def00046 Nivel producto demasiado bajo
+                        </p>
+                      </div>
+                      <!--Alerts en verde-->
+                      <div class="d-flex text-muted  pt-0 card border-success " style="margin-left: -15px;">
+                        <div class="card-body d-flex align-items-center">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#4CF549"/><text x="50%" y="50%" fill="#4CF549" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 py-2 mb-0 mt-2 small lh-sm w-100 ">
+                         <strong class="text-success mt-1"> 01/27/2023 10:02:26 AM <br> Reanudación de producción</strong>
+                        </p>
+                       </div>
+                       </div>
+                       <!--Alerts en azul-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:02:27 AM</strong>
+                          Embalajes acondicionados 622, def00022 Llenadora parada por el operador
+                        </p>
+                      </div>
+                      <!--Alerts en azul-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:02:39 AM</strong>
+                          Embalajes acondicionados 622, def00022 Llenadora parada por el operador
+                        </p>
+                      </div>
+                      <!--Alerts en azul-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:03:10 AM</strong>
+                          Embalajes acondicionados 623, def00022 Llenadora parada por el operador
+                        </p>
+                      </div>
+                       <!--Alerts en azul-->
+                       <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:05:05 AM</strong>
+                          Embalajes acondicionados 638, def00021 Válvula producto cerrada
+                        </p>
+                      </div>
+                       <!--Alerts en azul-->
+                       <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:05:06 AM</strong>
+                          Embalajes acondicionados 638, def00023 Portón de entrada cerrado por el operador
+                        </p>
+                      </div>
+                      <!--Alerts en azul-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:05:08 AM</strong>
+                          Embalajes acondicionados 638, def00022 Llenadora parada por el operador
+                        </p>
+                      </div>
+                        <!--Alerts en azul-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:39:22 AM</strong>
+                          Embalajes acondicionados 638, def00057 Llenadora parada por la IHM
+                        </p>
+                      </div>
+                       <!--Alerts en azul-->
+                       <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#0249D9"/><text x="50%" y="50%" fill="#0249D9" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom w-100">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:39:22 AM</strong>
+                          Embalajes acondicionados 638, Causa de parada: def00057 Llenadora parada por la IHM
+                        </p>
+                      </div>
+                    </div>
+
+
+                    <!--Puestas a cero-->
+
+
+                    <div class="my-3 p-3 bg-body rounded shadow-sm">
+                      <h6 class="border-bottom pb-2 mb-0"><dt>Puesta a cero de balanzas</dt> </h6>
+                       <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:39:27 AM</strong>
+                          Esataciones: todas 
+                        </p>
+                      </div>
+                       <!--Alerts en verde-->
+                      <div class="d-flex text-muted  pt-0 card border-success " style="margin-left: -15px;">
+                        <div class="card-body d-flex align-items-center">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#4CF549"/><text x="50%" y="50%" fill="#4CF549" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 py-2 mb-0 mt-2 small lh-sm w-100 ">
+                         <strong class="text-success mt-1"> 01/27/2023 10:39:31 AM <br> Reanudación de producción</strong>
+                        </p>
+                       </div>
+                       </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:39:57 AM, 01/27/2023 10:40:32 AM </strong>
+                          Embalajes acondicionados 638, Dosificacación Estación 2 Subdosificación
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:40:40 AM </strong>
+                          Embalajes acondicionados 641, Dosificacación Estación 8 Subdosificación
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:42:08 AM </strong>
+                          Embalajes acondicionados 651, Dosificacación Estación 2 Subdosificación
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:54:57 AM </strong>
+                          Embalajes acondicionados 655, Dosificacación Estación 2 Subdosificación
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:54:57 AM </strong>
+                          Embalajes acondicionados 655, causa de parada: Dosificacación Estación 2 Subdosificación
+                        </p>
+                      </div>
+                      <!--Alerts en verde-->
+                      <div class="d-flex text-muted  pt-0 card border-success " style="margin-left: -15px;">
+                        <div class="card-body d-flex align-items-center">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#4CF549"/><text x="50%" y="50%" fill="#4CF549" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 py-2 mb-0 mt-2 small lh-sm w-100 ">
+                         <strong class="text-success mt-1"> 01/27/2023 10:55:15 AM <br> Reanudación de producción</strong>
+                        </p>
+                       </div>
+                       </div>
+                       <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:55:37 AM</strong>
+                          Embalajes acondicionados 655, Dosificacación Estación 2 Subdosificación
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:58:56 AM</strong>
+                          Embalajes acondicionados 791, def00046 Nivel producto demasiado bajo
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:58:56 AM</strong>
+                          Embalajes acondicionados 791, Causa de parada: def00046 Nivel producto demasiado bajo
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 10:59:19 AM</strong>
+                          Embalajes acondicionados 792, def00021 Válvula producto cerrada
+                        </p>
+                      </div>
+                      <!--Alerts en verde-->
+                      <div class="d-flex text-muted  pt-0 card border-success " style="margin-left: -15px;">
+                        <div class="card-body d-flex align-items-center">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#4CF549"/><text x="50%" y="50%" fill="#4CF549" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 py-2 mb-0 mt-2 small lh-sm w-100 ">
+                         <strong class="text-success mt-1"> 01/27/2023 10:59:24 AM <br> Reanudación de producción</strong>
+                        </p>
+                       </div>
+                       </div>
+                       <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:00:15 AM</strong>
+                          Embalajes acondicionados 825, Dosificacación Estación 4 Embalaje no controlado
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:00:50 AM</strong>
+                          Embalajes acondicionados 848, Dosificacación Estación 4 Embalaje no controlado
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:01:29 AM</strong>
+                          Embalajes acondicionados 871, Dosificacación Estación 4 Embalaje no controlado
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:03:21 AM</strong>
+                          Embalajes acondicionados 893, Dosificacación Estación 4 Embalaje no controlado
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:07:24 AM</strong>
+                          Embalajes acondicionados 897, def00021 Válvula producto cerrada
+                        </p>
+                      </div>
+                       <!--Alerts en rojo-->
+                       <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:09:38 AM</strong>
+                          Embalajes acondicionados 917, def00022 Llenadora parada por el operador
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:10:14 AM</strong>
+                          Embalajes acondicionados 918, Dosificacación Estación 7 Subdosificación
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:10:38 AM</strong>
+                          Embalajes acondicionados 920, def00021 Válvula producto cerrada
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:11:16 AM</strong>
+                          Embalajes acondicionados 920, def00022 Llenadora parada por el operador
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:11:40 AM</strong>
+                          Embalajes acondicionados 920, def00021 Válvula producto cerrada
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:11:50 AM</strong>
+                          Embalajes acondicionados 920, Dosificacación Estación 2 Defecto de evolución de pesos
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:11:55 AM</strong>
+                          Embalajes acondicionados 920, Dosificacación Estación 4 Defecto de evolución de pesos
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:12:48 AM</strong>
+                          Embalajes acondicionados 920, Dosificacación Estación 4 Defecto de evolución de pesos
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:13:14 AM</strong>
+                          Embalajes acondicionados 920, def00022 Llenadora parada por el operador
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:13:50 AM</strong>
+                          Embalajes acondicionados 920, def00022 Llenadora parada por el operador
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:13:59 AM</strong>
+                          Embalajes acondicionados 920, def00021 Válvula producto cerrada
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:14:06 AM</strong>
+                          Embalajes acondicionados 920, def00006 - Baja presion de aire en llenadora
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:18:45 AM</strong>
+                          Embalajes acondicionados 920, def00018 Transportador parado
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:18:45 AM</strong>
+                          Embalajes acondicionados 920, def00021 Válvula producto cerrada
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:20:14 AM</strong>
+                          Embalajes acondicionados 920, def00046 Nivel producto demasiado bajo
+                        </p>
+                      </div>
+                      <!--Alerts en rojo-->
+                      <div class="d-flex text-muted pt-3">
+                        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"  role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#E51E00"/><text x="50%" y="50%" fill="#E51E00" dy=".3em">32x32</text></svg>
+                        <p class="pb-3 mb-0 small lh-sm w-100 border-bottom">
+                          <strong class="d-block text-gray-dark">01/27/2023 11:20:14 AM</strong>
+                          Embalajes acondicionados 920, def00023 Portón de entrada cerrado por el operador
+                        </p>
+                      </div>
+                    </div>
+
+                    <!-- Siguiente segmento-->
+                      <div class="d-flex align-items-center p-3 my-3 text-white bg-purple rounded shadow-sm">
+                        <div class=" rounded py-2 px-1" style="background: rgb(0, 0, 0); width: 40px; height: 40px;"> <i class="bi bi-megaphone-fill mx-2 my-2"></i></div>
+                        <div class="lh-1">
+                          <h1 class="h6 mb-0 text-black lh-1 mx-2">Otras alarmas</h1>
+                          
+                        </div>
+                      </div>
+                    
+                      <div class="my-3 p-3 bg-body rounded shadow-sm">
+                        <div class="card-body table-responsive">
+                          <table class="table mb-0 col-sm-12 ">
+                            <thead>
+                              <tr class="table-secondary">
+                                <th class="py-2"scope="col"> <p>Enunciado</p></th>
+                                <th scope="col d-flex">Cantidad de apariciones</th>
+                                <th scope="col">Duración total de aparición (en h:m:s)</th>
+                                <th scope="col">Duración total de activación durante la rotación (en h:m:s)</th>
+                              </tr>
+                            </thead>
+                            <tbody >
+                              <tr >
+                                <th scope="row "><p class="pt-3">def00021 Válvula producto cerrada</p></th>
+                                <td class="py-4"> 9</td>
+                                <td class="py-4" >12:58:58 a. m</td>
+                                <td class="py-4">12:22:13 a. m</td>
+                              </tr> 
+                              <tr >
+                                <th scope="row py-3"><p class="pt-2">def00022 Llenadora parada por el operador</p></th>
+                                <td class="py-4">10</td >
+                                <td class="py-4">1:10:22 a. m</td>
+                                <td class="py-4">12:00:00 a. m.</td>
+                              </tr> 
+                            </tbody>
+                          </table>
+                        </div>
+
+                      </div>
+
+                      <div class="my-3 p-3 bg-body rounded shadow-sm">
+                        
+                        <h1 class="h4 mb-1 text-black lh-1 mx-2 mb-1">Defectos de Dosificacación</h1>
+                        <div class="table-responsive d-flex  align-items-center" >
+            
+                          <table class="table table-bordered  table-striped">
+                            <thead class="table-light">
+                              <tr>
+                                <th colspan="3" ></th>
+                                <th colspan="2">Duración acumulada de no producción (en h:m:s)</th>
+                              </tr>
+                              <tr class="pt-0">
+                              <th scope="col"> <p > Enunciado</p></th>
+                              <th scope="col "> <p >Cantidad de apariciones</p></th>
+                              <th scope="col "> <p > Numero de causa de no producción </p> </th>
+                              <th scope="col"> <p > Con presencia de defectos</th></p>
+                              <th scope="col"> <p >sin presencia de defectos</p></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                              <tr >
+                                <th scope="row align-items-center">Embalaje no controlado</th>
+                                <td> 4</td>
+                                <td >0</td>
+                                <td>12:00:00 a. m</td>
+                                <td>12:00:00 a. m</td>
+                              </tr> 
+                              <tr >
+                                <th scope="row ">Sobredosificación</th>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>12:00:00 a. m.</td>
+                                <td>12:00:00 a. m.</td>
+                              </tr> 
+                              <th scope="row ">Subdosificación</th>
+                                <td>6</td>
+                                <td>1</td>
+                                <td>12:00:00 a. m.</td>
+                                <td>12:00:17 a. m.</td>
+                              </tr> 
+                              <th scope="row ">Subdosificación</th>
+                                <td>3</td>
+                                <td>0</td>
+                                <td>12:00:00 a. m.</td>
+                                <td>12:00:00 a. m.</td>
+                              </tr> 
+
+                            </tbody>
+                          </table>
+                        </div>
+
+                       
+
+                      </div>
+                      <h4 class="mx-3">Fin de producción</h4>
+                      <!--↓↓↓↓↓ cierre del pil↓↓↓↓-->
+                      </main>
+                    </div>
+<!--------------------------------------------------Contenido del segundo tab----------------------------------------------------------------------------------------------------------------------------------------------->
+            
+                <div class="tab-pane fade" id="pills-ficha" role="tabpanel" aria-labelledby="pills-ficha-tab" tabindex="0">
+            
+                  <div class="col-sm-12 col-lg-11 col-md-11 col-xl-11 mx-5">
+                    <div class="card border-secondary mb-3">
+                      <div class="card-header justify-content-center d-flex text-white" style="background:rgb(117, 124, 129);">Ficha de producción</div>
+                      <div class="card-body">
+<!----------------------------------------Importante separación de card y row------------------------------------------------------------------------------->
+                        <div class="row">
+                          <div class="container pb-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                            <div class=" py-1 col-7  d-flex align-items-center" >
+                              <p class="pb-2 py-1 mb-0 text-black"> <strong> Nombre de la ficha de producción </strong></p>
+                            </div>
+                            <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                              <p class="pb-2 mb-0 text-black"> <strong> FA0-27114001/MARFIL SUAVE</strong> </p>
+                            </div>
+                          </div>
+                 
+                          <!-- siguiente parte ↓↓-->
+                          <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                            <div class=" py-1 col-7  d-flex align-items-center" >
+                              <p class="pb-2  py-1 mb-0"> <strong> Nombre de la ficha embalaje :</strong> </p>
+                            </div>
+                            <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                              <p class="pb-2 mb-0 text-black"> <strong>Green_tooling </strong> </p>
+                            </div>
+                          </div>
+                        </div>
+
+<!------------------------------------------Subtitulo de dosificación------------------------------------------------------------------------------------------------>
+                   <div class=" mt-2 card-header rounded justify-content-center d-flex text-white" style="background: rgb(117, 124, 129);">Dosificacación</div>
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+                 
+                   <div class="row">
+                    <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                      <div class=" py-1 col-7  d-flex align-items-center" >
+                      <p class="pb-2 py-1 mb-0"><strong> Nombre de la dosificación:</strong> </h6>
+                      </div>
+                      <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                        <p class="pb-2 mb-0 text-black"> <strong> 271-140-01 MARFIL SUAVE </strong> </p>
+                      </div>
+                    </div>
+
+                  <!-- siguiente parte ↓↓-->
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Identificación:</strong> </p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 1 </strong> </p>
+                    </div>
+                  </div>
+
+                   <!-- siguiente parte ↓↓-->
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Consigna de dosificación (g):</strong> </p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 4710.0 </strong> </p>
+                    </div>
+                   </div>
+
+                   <!-- siguiente parte ↓↓-->
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Mínimo aceptable (g):</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 4680.0 </strong> </p>
+                    </div>
+                   </div>
+
+                   <!-- siguiente parte ↓↓-->
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <hp class="pb-2 py-1 mb-0"><strong>Máximo aceptable (g):</strong> </p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 4740.0 </strong> </p>
+                    </div>
+                   </div>
+
+                   <!-- siguiente parte ↓↓-->
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Tara máxima (g):</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 280.0 </strong> </p>
+                    </div>
+                   </div>
+
+                   <!-- siguiente parte ↓↓-->
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Evolución de peso (g/s):</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 30.0 </strong> </p>
+                    </div>
+                   </div>
+
+                   <!-- siguiente parte ↓↓-->
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Velocidad de arranque (Emb/min):</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 45</strong> </p>
+                    </div>
+                   </div>
+
+                   <!-- siguiente parte ↓↓-->
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Nivel producto (mm):</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 480</strong> </p>
+                    </div>
+                   </div>
+
+                   <!-- siguiente parte ↓↓-->
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Tiempo de dosificación (s):</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 5000</strong> </p>
+                    </div>
+                   </div>
+
+                   <!-- siguiente parte ↓↓-->
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Porcentaje de anticipación (%):</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 20</strong> </p>
+                    </div>
+                   </div>
+
+                   <!-- siguiente parte ↓↓-->
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Porcentaje de Inicialización (%):</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 40.00</strong> </p>
+                    </div>
+                   </div>
+
+                   <!-- siguiente parte ↓↓-->
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Abertura gran caudal (s):</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 0.0</strong> </p>
+                    </div>
+                   </div>
+
+                   <!-- siguiente parte ↓↓-->
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Cierre gran caudal (%):</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 100</strong> </p>
+                    </div>
+                   </div>
+
+                   <!-- siguiente parte ↓↓-->
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Cierre gran caudal (%):</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 100</strong> </p>
+                    </div>
+                   </div>
+                  </div>
+<!-----------------------------------------↓↓↓↓↓↓↓Subtitulo↓↓↓↓↓↓-------------------------------------------------------------------------------------------------------------------------------------->
+                   <div class=" mt-2 card-header rounded justify-content-center d-flex text-white" style="background: rgb(117, 124, 129);">Filtros</div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+                   <!--↓↓siguiente parte ↓↓-->
+                   <div class="row">
+
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Nombre:</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> Filter</strong> </p>
+                    </div>
+                  </div>
+                  
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>cantidad de muestras para calcular el caudal:</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 100</strong> </p>
+                    </div>
+                  </div>
+
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Tamaño del filtro de tarado (x 20 ms):</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 26</strong> </p>
+                    </div>
+                  </div>
+
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Filtro de ajuste (ms):</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 900</strong> </p>
+                    </div>
+                  </div>
+
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Tamaño del filtro de ajuste (x 20 ms):</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 26</strong> </p>
+                    </div>
+                  </div>
+
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Tamaño del filtro de llenado (x 20 ms) :</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 30</strong> </p>
+                    </div>
+                  </div>
+
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Cantidad de muestras para calcular el caudal:</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 5</strong> </p>
+                    </div>
+                  </div>
+
+    <!------↓↓↓↓↓Row↓↓↓↓↓------>
+                </div>
+    <!------↑↑↑↑↑Row↑↑↑↑↑------>
+                
+                <!-----------------------------------------↓↓↓↓↓↓↓Subtitulo↓↓↓↓↓↓-------------------------------------------------------------------------------------------------------------------------------------->
+                   <div class=" mt-2 card-header rounded justify-content-center d-flex text-white" style="background: rgb(117, 124, 129);">Filtros</div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+                   <!--↓↓siguiente parte ↓↓-->
+                   <div class="row">
+
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Nombre:</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> Filter</strong> </p>
+                    </div>
+                  </div>
+                  
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>cantidad de muestras para calcular el caudal:</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 100</strong> </p>
+                    </div>
+                  </div>
+
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Tamaño del filtro de tarado (x 20 ms):</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 26</strong> </p>
+                    </div>
+                  </div>
+
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Filtro de ajuste (ms):</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 900</strong> </p>
+                    </div>
+                  </div>
+
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Tamaño del filtro de ajuste (x 20 ms):</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 26</strong> </p>
+                    </div>
+                  </div>
+
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Tamaño del filtro de llenado (x 20 ms) :</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 30</strong> </p>
+                    </div>
+                  </div>
+
+                  <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                    <div class=" py-1 col-7  d-flex align-items-center" >
+                    <p class="pb-2 py-1 mb-0"><strong>Cantidad de muestras para calcular el caudal:</strong></p>
+                    </div>
+                    <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                      <p class="pb-2 mb-0 text-black"> <strong> 5</strong> </p>
+                    </div>
+                  </div>
+
+    <!------↓↓↓↓↓Row↓↓↓↓↓------>
+                </div>
+    <!------↑↑↑↑↑Row↑↑↑↑↑------>
+
+    <!-----------------------------------------↓↓↓↓↓↓↓Subtitulo↓↓↓↓↓↓-------------------------------------------------------------------------------------------------------------------------------------->
+    <div class=" mt-2 card-header rounded justify-content-center d-flex text-white" style="background: rgb(117, 124, 129);">Modos</div>
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+                       <!--↓↓siguiente parte ↓↓-->
+                       <div class="row">
+    
+                      <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                        <div class=" py-1 col-7  d-flex align-items-center" >
+                        <p class="pb-2 py-1 mb-0"><strong>Nombre:</strong></p>
+                        </div>
+                        <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                          <p class="pb-2 mb-0 text-black"> <strong>271-140-01 MARFIL SUAVE </strong> </p>
+                        </div>
+                      </div>
+                      
+                      <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                        <div class=" py-1 col-7  d-flex align-items-center" >
+                        <p class="pb-2 py-1 mb-0"><strong>Modo de dosificación:</strong></p>
+                        </div>
+                        <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                          <p class="pb-2 mb-0 text-black"> <strong>Net Weight Boost</strong> </p>
+                        </div>
+                      </div>
+
+                      <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                        <div class=" py-1 col-7  d-flex align-items-center" >
+                        <p class="pb-2 py-1 mb-0"><strong>Periodo de monitoring (Minutos):</strong></p>
+                        </div>
+                        <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                          <p class="pb-2 mb-0 text-black"> <strong>60 </strong> </p>
+                        </div>
+                      </div>
+
+                      <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                        <div class=" py-1 col-7  d-flex align-items-center" >
+                        <p class="pb-2 py-1 mb-0"><strong>Duración del monitoring sin ajuste (Emb./Estación):</strong></p>
+                        </div>
+                        <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                          <p class="pb-2 mb-0 text-black"> <strong> 0 </strong> </p>
+                        </div>
+                      </div>
+
+                      <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                        <div class=" py-1 col-7  d-flex align-items-center" >
+                        <p class="pb-2 py-1 mb-0"><strong>Duración del monitoring con ajuste (Emb./Estación):</strong></p>
+                        </div>
+                        <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                          <p class="pb-2 mb-0 text-black"> <strong> 7 </strong> </p>
+                        </div>
+                      </div>
+
+                      <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                        <div class=" py-1 col-7  d-flex align-items-center" >
+                        <p class="pb-2 py-1 mb-0"><strong>Tamaño de la tabla de taras:</strong></p>
+                        </div>
+                        <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                          <p class="pb-2 mb-0 text-black"> <strong> 7 </strong> </p>
+                        </div>
+                      </div>
+
+                      <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                        <div class=" py-1 col-7  d-flex align-items-center" >
+                        <p class="pb-2 py-1 mb-0"><strong>Tamaño de la tabla de colas de caída :</strong></p>
+                        </div>
+                        <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                          <p class="pb-2 mb-0 text-black"> <strong> 7 </strong> </p>
+                        </div>
+                      </div>
+
+        <!------↓↓↓↓↓Row↓↓↓↓↓------>
+                    </div>
+        <!------↑↑↑↑↑Row↑↑↑↑↑------>
+        <!-----------------------------------------↓↓↓↓↓↓↓Subtitulo↓↓↓↓↓↓-------------------------------------------------------------------------------------------------------------------------------------->
+    <div class=" mt-2 card-header rounded justify-content-center d-flex text-white" style="background: rgb(117, 124, 129);">Estaciones devalidadas</div>
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+                       <!--↓↓siguiente parte ↓↓-->
+                       <div class="row">
+    
+                      <div class="container pb-2 pt-2 d-flex align-items-center rounded" style="border-bottom: solid; border-width: 2px; border-color: rgb(158, 162, 165);">
+                        <div class=" py-1 col-7  d-flex align-items-center" >
+                        <p class="pb-2 py-1 mb-0"><strong>Dosificación:</strong></p>
+                        </div>
+                        <div class="col-5 text-muted d-flex text-center justify-content-center align-items-center ">
+                          <p class="pb-2 mb-0 text-black"> <strong>Ninguna </strong> </p>
+                        </div>
+                      </div>
+        <!------↓↓↓↓↓Row↓↓↓↓↓------>
+                    </div>
+        <!------↑↑↑↑↑Row↑↑↑↑↑------>
+                  <!--A partir de aqui ↓↓ cierre de la tarjeta-->
+                  </div>
+                </div>
+              </div>
+            </div>
+<!---------------------------------------- Cierre de la tarjeta------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------- Apertura del ultimo tab------------------------------------------------------------------------------------------------------------------------->
+<div class="tab-pane fade " id="pills-dosificacion" role="tabpanel" aria-labelledby="pills-dosificacion-tab" tabindex="0">   
+  
+        <div class="container d-flex justify-content-center">
+      <div class="card col-10">
+        <div class="card-body">
+          <h5 class="card-title font-weight-bold fs-6">01/27/2023 11:20:41 AM</h5>
+          <div class="d-flex justify-content-between">
+            <p class="display-1 degree" style="font-size: 2.5rem;">Estadisticas de dosificación</p>
+            <div class=" rounded py-2" style="background: rgb(255, 255, 255); width: 75px; height: 75px; margin-right: 200px; margin-top: -10px;"> <img class="mx-2" src="barra-grafica.png" alt="" style="height: 50px;">
+            </div>
+          </div>
+          <hr class="mt-0 w-75">
+          
+          <div class="table-responsive" >
+            <table class="table">
+              <thead style="background-color: rgb(117, 124, 129);;">
+                <tr>
+                  <th scope="col">Pico</th>
+                  <th scope="col">Media (g)</th>
+                  <th scope="col">Diferencia tipo (g)</th>
+                  <th scope="col">Población</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>4710.4</td>
+                  <td>3.9</td>
+                  <td>65</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>4713.0</td>
+                  <td>6.9</td>
+                  <td>63</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>4710.6</td>
+                  <td>4.2</td>
+                  <td>67</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>4710.5</td>
+                  <td>4.1</td>
+                  <td>66</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>4710.4</td>
+                  <td>5.3</td>
+                  <td>68</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>4711.5</td>
+                  <td>4.6</td>
+                  <td>67</td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>4710.1</td>
+                  <td>5.1</td>
+                  <td>65</td>
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td>4710.5</td>
+                  <td>4.6</td>
+                  <td>65</td>
+                </tr>
+                <tr>
+                  <th scope="row">9</th>
+                  <td>4709.0</td>
+                  <td>9.3</td>
+                  <td>64</td>
+                </tr>
+                <tr>
+                  <th scope="row">10</th>
+                  <td>4710.6</td>
+                  <td>3.7</td>
+                  <td>63</td>
+                </tr>
+                <tr>
+                  <th scope="row">11</th>
+                  <td>4710.8</td>
+                  <td>3.6</td>
+                  <td>64</td>
+                </tr>
+                <tr>
+                  <th scope="row">12</th>
+                  <td>4710.7</td>
+                  <td>6.9</td>
+                  <td>66</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        
+            <hr>
+            <div class="d-flex justify-content-between">
+              <p class="display-1 degree" style="font-size: 1.5rem;">Tiempo de dosificación</p>
+              <div class=" rounded py-2" style="background: rgb(255, 255, 255); width: 75px; height: 75px; margin-right: 300px; margin-top: -10px;"> <img class="mx-2" src="reloj-de-arena.png" alt="" style="height: 50px;">
+              </div>
+            </div>
+            <hr class="mt-0 w-75">
+            
+            <div class="table-responsive" >
+              <table class="table">
+                <thead class="text-white" style="background-color: rgb(117, 124, 129);;">
+                  <tr>
+                    <th scope="col">Media (s)</th>
+                    <th scope="col">Diferencia tipo(s)</th>
+                    <th scope="col">Población</th>
+                    <th scope="col">Minimo (s)</th>
+                    <th scope="col">Maximo (s)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row">5754</td>
+                    <td>1590</td>
+                    <td>920</td>
+                    <td>4570</td>
+                    <td>16650</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="d-flex justify-content-between ">
+              <h3 class="fs-4 mt-2"> Alarmas que provocan las paradas</h5>
+              <div class=" rounded py-2" style="background: rgb(255, 255, 255); width: 75px; height: 75px; margin-right: 300px; margin-top: -10px;"> <img class="mx-2" src="sirena.png" alt="" style="height: 50px;">
+              </div>
+            </div>
+            <hr class="mt-0 w-75">
+           
+            <div class="table-responsive d-flex  align-items-center" >
+            
+              <table class="table table-bordered table-striped ">
+                <thead class="table-light">
+                  <tr>
+                    <th colspan="4" ></th>
+                    <th colspan="2">Duración acumulada de no producción (en h:m:s)</th>
+                  </tr>
+                  <tr class="">
+                  <th scope="col"> <p> Enunciado</p></th>
+                  <th scope="col"><p class="text-center">Cantidad de apariciones</p></th>
+                  <th scope="col">Duración total de aparición (en h:m:s)</th>
+                  <th scope="col">Número de causa de no producción</th>
+                  <th scope="col">Con presencia de defectos</th>
+                  <th scope="col">Sin presencia de defectos </th>
+                </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">def00006 - Baja presion de aire en llenadora</th>
+                    <td class=" pt-4"><p class="text-center"> 2</p></td>
+                    <td class=" pt-4">0:27:24</td>
+                    <td class=" pt-4">0</td>
+                    <td class=" pt-4">0:00:00</td>
+                    <td class=" pt-4">0:00:00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">def00018 Transportador parado</th>
+                    <td class=" pt-4"><p class="text-center"> 4</p></td>
+                    <td class=" pt-4">0:02:26 </td>
+                    <td class=" pt-4">0</td>
+                    <td class=" pt-4">0:00:00</td>
+                    <td class=" pt-4">0:00:00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">def00046 Nivel producto demasiado bajo</th>
+                    <td class=" pt-4"><p class="text-center"> 4</p></td>
+                    <td class=" pt-4">0:14:34</td>
+                    <td class=" pt-4">2</td>
+                    <td class=" pt-4">0:01:06</td>
+                    <td class=" pt-4">0:11:17</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">def00057 Llenadora parada por la IHM</th>
+                    <td class=" pt-4"><p class="text-center"> 3</p></td>
+                    <td class=" pt-4">0:00:16</td>
+                    <td class=" pt-4">2</td>
+                    <td class=" pt-4">0:00:13</td>
+                    <td class=" pt-4">0:00:23</td>
+                  </tr>
+                   
+                </tbody>
+              </table>
+            </div>
+            <div class="d-flex justify-content-between ">
+              <h3 class="fs-4 mt-2"> Alarmas que provocan el cierre del portillo</h5>
+              <div class=" rounded py-2" style="background: rgb(255, 255, 255); width: 75px; height: 75px; margin-right: 300px; margin-top: -10px;"> <img class="mx-2" src="sirena.png" alt="" style="height: 50px;">
+              </div>
+            </div>
+            <hr class="mt-0 w-75">
+           
+            <div class="table-responsive d-flex  align-items-center" >
+            
+              <table class="table table-bordered  table-striped">
+                <thead class="table-light">
+                  <tr>
+                    <th colspan="4" ></th>
+                    <th colspan="2">Duración acumulada de no producción (en h:m:s)</th>
+                  </tr>
+                  <tr class="">
+                  <th scope="col"> <p> Enunciado</p></th>
+                  <th scope="col"><p class="text-center">Cantidad de apariciones</p></th>
+                  <th scope="col">Duración total de aparición (en h:m:s)</th>
+                  <th scope="col">Número de causa de no producción</th>
+                  <th scope="col">Con presencia de defectos</th>
+                  <th scope="col">Sin presencia de defectos </th>
+                </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">def00023 Portón de entrada cerrado por el operador</th>
+                    <td class=" pt-4"><p class="text-center"> 5</p></td>
+                    <td class=" pt-4">0:44:59</td>
+                    <td class=" pt-4">3</td>
+                    <td class=" pt-4">0:08:51</td>
+                    <td class=" pt-4">0:00:00</td>
+                  </tr>
+                  
+                   
+                </tbody>
+              </table>
+            </div>
+            
+          </div>
+      </div>
+    </div>
+
+</div>      
+
+              
+        
+<!---------------------------Esto es el final----------------------------------------------------------------------------------------------------------------------------------------------------->       
+        </div>
+
+    </div>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+    <!--Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/8a2f042b38.js" crossorigin="anonymous"></script>
+<!--Script de movimiento de nav-->
+<script>
+    $(".sidevar ul li").on('click' , function(){
+        $(".sidevar ul li.active").removeClass('active');
+        $(this).addClass('active');
+    });
+
+        $('.open-btn').on('click', function(){
+         $('.sidevar ').addClass('active');
+        });
+
+        $('.close-btn').on('click', function(){
+         $('.sidevar ').removeClass('active');
+        });
+</script>
+</body>
+</html>

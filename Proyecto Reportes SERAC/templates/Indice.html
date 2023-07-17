@@ -1,0 +1,204 @@
+{% extends "base/base.html" %}
+{% block titulo %}
+<title>{{titulo}}</title>
+{% endblock %}
+{% block body %}
+<style>
+.contenedor{
+  padding: 10px 20px 10px 20px ;
+  width: 100%;
+}
+
+</style>
+                  <main class="mx-3 " >
+                    <form class="col col-sm-12 col-xl-4 col-lg-4 col-md-4">
+                    <div class="input-group mt-4 ">
+                     
+                      <div class="input-group-text " style=" background: rgb(117, 124, 129);">
+                        <i class="bi bi-search"></i>
+                      </div>
+                      <label for="search" class="visually-hidden "></label>
+                      <input class="form-control search mb-0" id="buscador" type="search" placeholder="Buscar caracteristicas" autocomplete="off" >
+                      
+                    </div>
+                  </form>
+                    
+
+                  
+                    <div class="row row-cols-1 row-cols-md-3 mb-2 mt-4 text-center contenedor ">
+                      {% for item in nombre %}
+                      <!--Apertura del primer cuadro-->
+                      <div class="col-sm-4 grupo">
+                        <div class="shadow mb-2 rounded-3 shadow-sm " style="height: 450px;">
+                          <div class="card-header py-3 rounded " style=" background: rgb(117, 124, 129);">
+                            <h4 class="my-0 fw-normal text-white">{{item[2]}}</h4>
+                          </div>
+                          <div class="card-body px-2 ">
+                            <h1 class="card-title pricing-card-title"><small class="text-muted fw-light"></small></h1>
+                            <ul class="list-unstyled mt-2 px-0">
+                              <li><dt>Nombre del producto</dt></li>
+                              <li >{{item[0]}}</li>
+                              <hr class="h-color mt-2 mx-3">
+                              <li> <dt>Orden de producción: </dt></li>
+                              <li class="">{{item[2]}}</li>
+                              <hr class="h-color mt-2 mx-3">
+                              <li><dt> Numero de Lote:</dt></li>
+                              <li>{{item[3]}}</li>
+                              <hr class="h-color mt-2 mx-3">
+                              <li><dt>Fecha de Producción</dt></li>
+                              <li>{{item[1]}}</li>
+                              <hr class="h-color mt-2 mx-3">
+                              
+                            </ul>
+                            <a href="/reportes-{{ item[8] }}"class=" btn btn-lg btn-outline-primary fs-6 mb-3" >Mas detalles</a>
+                          </div>
+                        </div>
+                      </div>
+                   {% endfor %}
+                     
+                      
+                      <!--
+                      <div class="col-sm-4 grupo">
+                        <div class="shadow mb-2 rounded-3 shadow-sm" style="height: 450px;">
+                          <div class="card-header py-3 rounded" style="background: rgb(117, 124, 129);">
+                            <h4 class="my-0 fw-normal text-white">FS0-23439501</h4>
+                          </div>
+                          <div class="card-body px-2 ">
+                            <h1 class="card-title pricing-card-title"><small class="text-muted fw-light"></small></h1>
+                            <ul class="list-unstyled mt-2 px-0">
+                              <li ><dt>Nombre del producto</dt></li>
+                              <li class="fs-6">PURPURA VERSATYL INTERIOR SATINADO</li>
+                              <hr class="h-color mt-2 mx-3">
+                              <li> <dt>Orden de producción: </dt></li>
+                              <li class="">16108495</li>
+                              <hr class="h-color mt-2 mx-3">
+                              <li><dt> Numero de Lote:</dt></li>
+                              <li>127338</li>
+                              <hr class="h-color mt-2 mx-3">
+                              <li><dt>Fecha de Producción</dt></li>
+                              <li>09/21/2022</li>
+                              <hr class="h-color mt-2 mx-3">
+                            </ul>
+                            <button type="button" class=" btn btn-lg btn-outline-primary fs-6 mb-3">Mas detalles</button>
+                          </div>
+                        </div>
+                     </div>
+                        <div class="col-sm-4 grupo" >  
+                          <div class="shadow mb-2 rounded-3 shadow-sm " style="height: 450px;" >
+                            <div class="card-header py-3 rounded" style="background:rgb(117, 124, 129)">
+                              <h4 class="my-0 fw-normal text-white">FA0-27110101</h4>
+                            </div>
+                            <div class="card-body px-3 ">
+                              <h1 class="card-title pricing-card-title"><small class="text-muted fw-light"></small></h1>
+                              <ul class="list-unstyled mt-2 px-0">
+                                <li><dt>Nombre del producto</dt></li>
+                                <li >AV-2000  <br> BRILLO DE SEDA BLANCO </li>
+                                <hr class="h-color mt-2 mx-3">
+                                <li> <dt>Orden de producción: </dt></li>
+                                <li class="">12153060</li>
+                                <hr class="h-color mt-2 mx-3">
+                                <li><dt> Numero de Lote:</dt></li>
+                                <li>127860</li>
+                                <hr class="h-color mt-2 mx-3">
+                                <li><dt>Fecha de Producción</dt></li>
+                                <li>10/26/2022</li>
+                                <hr class="h-color mt-2 mx-3">
+                              </ul>
+                              <button type="button" class=" btn btn-lg btn-outline-primary fs-6 mb-3">Mas detalles</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-4  grupo" >  
+                      <div class="shadow mb-2 rounded-3 shadow-sm grupo" style="height: 450px;" >
+                        <div class="card-header py-3 rounded" style="background:rgb(117, 124, 129)">
+                          <h4 class="my-0 fw-normal text-white">FC0-89721001</h4>
+                        </div>
+                        <div class="card-body px-3 ">
+                          <h1 class="card-title pricing-card-title"><small class="text-muted fw-light"></small></h1>
+                          <ul class="list-unstyled mt-2 px-0">
+                            <li><dt>Nombre del producto</dt></li>
+                            <li >MANO <br> MARFIL ELEGANTE</li>
+                            <hr class="h-color mt-2 mx-3">
+                            <li> <dt>Orden de producción: </dt></li>
+                            <li class="">12152908</li>
+                            <hr class="h-color mt-2 mx-3">
+                            <li><dt> Numero de Lote:</dt></li>
+                            <li>127431</li>
+                            <hr class="h-color mt-2 mx-3">
+                            <li><dt>Fecha de Producción</dt></li>
+                            <li>09/20/2022</li>
+                            <hr class="h-color mt-2 mx-3">
+                          </ul>
+                          <button type="button" class=" btn btn-lg btn-outline-primary fs-6 mb-3">Mas detalles</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-4  grupo" >  
+                  <div class="shadow mb-2 rounded-3 shadow-sm" style="height: 450px;" >
+                    <div class="card-header py-3 rounded" style="background:rgb(117, 124, 129)">
+                      <h4 class="my-0 fw-normal text-white">FC0-86910001</h4>
+                    </div>
+                    <div class="card-body px-3 ">
+                      <h1 class="card-title pricing-card-title"><small class="text-muted fw-light"></small></h1>
+                      <ul class="list-unstyled mt-2 px-0">
+                        <li><dt>Nombre del producto</dt></li>
+                        <li >PINCO 60 <br> SATINADO BLANCO </li>
+                        <hr class="h-color mt-2 mx-3">
+                        <li> <dt>Orden de producción: </dt></li>
+                        <li class="">12153165</li>
+                        <hr class="h-color mt-2 mx-3">
+                        <li><dt> Numero de Lote:</dt></li>
+                        <li>128206</li>
+                        <hr class="h-color mt-2 mx-3">
+                        <li><dt>Fecha de Producción</dt></li>
+                        <li>01/26/20223</li>
+                        <hr class="h-color mt-2 mx-3">
+                      </ul>
+                      <button type="button" class=" btn btn-lg btn-outline-primary fs-6 mb-3">Mas detalles</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4  grupo" >  
+              <div class="shadow mb-2 rounded-3 shadow-sm" style="height: 450px;" >
+                <div class="card-header py-3 rounded" style="background:rgb(117, 124, 129)">
+                  <h4 class="my-0 fw-normal text-white">FA0-28562001</h4>
+                </div>
+                <div class="card-body px-3 ">
+                  <h1 class="card-title pricing-card-title"><small class="text-muted fw-light"></small></h1>
+                  <ul class="list-unstyled mt-2 px-0">
+                    <li><dt>Nombre del producto</dt></li>
+                    <li >AV-2000  <br> EXTERIOR GRIS LIBERTAD </li>
+                    <hr class="h-color mt-2 mx-3">
+                    <li> <dt>Orden de producción: </dt></li>
+                    <li class="">12153185</li>
+                    <hr class="h-color mt-2 mx-3">
+                    <li><dt> Numero de Lote:</dt></li>
+                    <li>128316</li>
+                    <hr class="h-color mt-2 mx-3">
+                    <li><dt>Fecha de Producción</dt></li>
+                    <li>01/31/2023</li>
+                    <hr class="h-color mt-2 mx-3">
+                  </ul>
+                  <button type="button" class=" btn btn-lg btn-outline-primary fs-6 mb-3">Mas detalles</button>
+                </div>
+              </div>
+             -->
+{% endblock %}
+{% block script %}
+<script >
+document.addEventListener("keyup", e=>{
+
+if (e.target.matches("#buscador")){
+  if (e.key ==="Escape")e.target.value = ""
+
+    document.querySelectorAll(".grupo").forEach(nombre=>{
+
+        nombre.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+        ?nombre.classList.remove("filter")
+            :nombre.classList.add("filter")
+
+    })
+}
+})
+</script>
+{% endblock %}
